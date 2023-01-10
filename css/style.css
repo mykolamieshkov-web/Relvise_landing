@@ -434,7 +434,7 @@ white-space: nowrap;
      white-space: break-spaces;
       }
 }
-/* PC layout */
+/* PC */
 .advice {
    padding: 80px;
    margin: auto;
@@ -491,23 +491,18 @@ color: #737373;
 .advice_content {
    width: 100vw;
    height: fit-content;
-   display: block;
-   justify-items: center;
-   margin-left: auto;
-   margin-right: auto;
-   
+   gap: 5px;
 }
 .advice_card {
    padding:0;
    width: 25vw;
    height: 320px;
-   margin: 0 auto;
 }
 .advice_card h5 {
 font-style: normal;
 font-weight: 700;
-font-size: 18px;
-line-height: 20px;
+font-size: 10px;
+line-height: 14px;
 letter-spacing: 0.1px;
 color: #252B42;
  width: auto;
@@ -518,8 +513,8 @@ width: auto;
 height: auto;
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
-line-height: 20px;
+font-size: 10px;
+line-height: 14px;
 letter-spacing: 0.2px;
 color: #737373;
 white-space: normal;
